@@ -331,6 +331,6 @@ function checkLogin(){
 function logOut () {
     signupArr = [];
     localStorage.setItem('signup',JSON.stringify(signupArr));
-    window.location.href = '../Index.html';
+    window.location.href = '../index.html';
     saveLogin();
 }
